@@ -38,7 +38,7 @@ img{
 
 .myButton {
 	box-shadow: 0px 1px 0px 0px #f0f7fa;
-	background-color:#33bdef;
+	background-color:#0043fa;
 	border-radius:12px;
 	border:1px solid #057fd0;
 	display:inline-block;
@@ -60,7 +60,7 @@ img{
 }
 
 .grupo-fotos{
-    background-color: rgb(158, 36, 36);
+    background-color: rgb(115, 222, 255);
 }
 
 .fotos{

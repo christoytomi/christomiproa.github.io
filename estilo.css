@@ -89,9 +89,11 @@ img{
     margin-top: 1%;
 }
 
-#listanav{
-    text-decoration: none;
+#listanav li{
     background-color: #5b6178;
+    list-style: none;
+    font-size: 20px;
+    display: inline-block;
 }
 
 

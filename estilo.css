@@ -96,5 +96,15 @@ img{
     display: inline-block;
 }
 
+table th{
+    background-color: aqua;
+    border-style:outset;
+}
 
 
+
+table td{
+    background-color: #853939;
+}
+
+.

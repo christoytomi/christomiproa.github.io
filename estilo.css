@@ -1,110 +1,102 @@
+
+
+
+
+
+
+
+
+
 @font-face {
-    font-family: "letra";
-    src: url(FONTS/Oswald-VariableFont_wght.ttf);
+  font-family: "letra";
+  src: url(FONTS/Oswald-VariableFont_wght.ttf);
 }
 
-
-
-
-
-
-body{
-    font-family: "letra";
+body {
+  font-family: "letra";
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
 }
 
-
-
-{
-    background-color: rgb(0, 0, 0);
+h1 {
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
 }
 
-p{
-    color: #00d9ff;
+p {
+  color: #00d9ff;
+  text-align: center;
+  padding: 10px;
 }
 
-
-h1{
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+nav {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-img{
-    width: 20%;
-    height: auto;
+#listanav li {
+  background-color: #5b6178;
+  list-style: none;
+  font-size: 20px;
+  display: inline-block;
+  margin: 5px;
 }
-
-
-.img{
-	height: auto;
-	width: 50%;
-}
-
-
-.precio{
-	color: rgb(255, 255, 255);
-	background-color: rgb(0, 0, 0);
-    width: 5%;
-    display: inline-block;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 1%;
-    margin-top: 1%;
-}
-
 
 .myButton {
-	box-shadow: 0px 1px 0px 0px #f0f7fa;
-	background-color:#0043fa;
-	border-radius:12px;
-	border:1px solid #057fd0;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px -1px 0px #5b6178;
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+  background-color: #0043fa;
+  border-radius: 12px;
+  border: 1px solid #057fd0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #5b6178;
 }
+
 .myButton:hover {
-	background-color:#853939;
+  background-color: #853939;
 }
+
 .myButton:active {
-	position:relative;
-	top:1px;
-}
-
-.grupo-fotos{
-    background-color: rgb(115, 222, 255);
-}
-
-.fotos{
-    background-color: rgb(217, 255, 0);
-    width: 30%;
-    display: inline-block;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 1%;
-    margin-top: 1%;
-}
-
-#listanav li{
-    background-color: #5b6178;
-    list-style: none;
-    font-size: 20px;
-    display: inline-block;
-}
-
-table th{
-    background-color: aqua;
-    border-style:outset;
+  position: relative;
+  top: 1px;
 }
 
 
-
-table td{
-    background-color: #853939;
+.grupo-fotos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
 }
 
-.
+.foto {
+  background-color: #000000;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.foto img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.precio {
+  color: #fff;
+  background-color: #000;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
